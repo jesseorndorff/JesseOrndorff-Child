@@ -1,0 +1,21 @@
+/* BEGIN sbwp_font_typekit_custom_css */
+body, .field, .lead {
+    font-family: "adobe-garamond-pro", sans-serif;
+    color: ;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "proxima-nova", sans-serif;
+    color: ;
+}
+.sb-slidebar ul li a {
+    font-family: "proxima-nova", sans-serif;
+}
+.accent, h2 + h3, .wp-caption-text, blockquote p {
+    font-family: "proxima-nova", serif;
+    font-weight: 400 !important;
+    color: ;
+}
+.accent {
+    font-style: italic;
+}
+/* END sbwp_font_typekit_custom_css */
