@@ -1,6 +1,6 @@
 /*
 Theme Name: Collektion (Child Theme)
-Description: Collektion is a beautiful and well built WordPress blogging theme, inspired on narrative trend sites like Exposure and Medium. 
+Description: Collektion is a beautiful and well built WordPress blogging theme, inspired on narrative trend sites like Exposure and Medium.
 Author: Simon Bouchard
 Author URI: http://themeforest.net/user/SimonBouchard
 Template: collektion
@@ -10,3 +10,24 @@ Template: collektion
 
 /* = Add your own modification from here
 -------------------------------------------------------------- */
+
+/* Hamburger Color Changes */
+html.no-touch .link-menu:hover span {
+  background-color: #9944B6;
+}
+html.no-touch .link-menu:hover span:after {
+  background-color: #9944B6;
+}
+
+a {
+  color: #9944B6;
+}
+
+a:hover {
+  color: #9944B6;
+}
+
+/* Sidebar Changes */
+.sb-slidebar {
+  color: #9944B6;
+}
