@@ -1,0 +1,73 @@
+/*
+Theme Name: Collektion (Child Theme)
+Description: Collektion is a beautiful and well built WordPress blogging theme, inspired on narrative trend sites like Exposure and Medium.
+Author: Simon Bouchard
+Author URI: http://themeforest.net/user/SimonBouchard
+Template: collektion
+*/
+
+@import url("../collektion/library/css/style.css");
+
+/* = Add your own modification from here
+-------------------------------------------------------------- */
+/* BEGIN sbwp_font_typekit_custom_css */
+body, .field, .lead {
+    font-family: "ff-meta-serif-web-pro", sans-serif !important;
+    color: #666;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "proxima-nova", sans-serif !important;
+    color: #000;
+}
+.sb-slidebar ul li a {
+    font-family: "proxima-nova", sans-serif !important;
+}
+.accent, h2 + h3, .wp-caption-text, blockquote p {
+    font-family: "proxima-nova", serif !important;
+    font-weight: 400 !important;
+    color: #999;
+}
+.accent {
+    font-style: italic;
+}
+/* END sbwp_font_typekit_custom_css */
+
+/* Sitewide Style Changes */
+
+a, a:visited {
+  color: #9944B6;
+}
+a:hover, a:visited:hover {
+  color: #4D0067;
+}
+
+/* Hamburger Color Changes */
+html.no-touch .link-menu:hover span {
+  background-color: #4D0067 !important;
+}
+html.no-touch .link-menu:hover span:after {
+  background-color: #4D0067 !important;
+}
+
+/* Sidebar Changes */
+.slide-menu .accent {color: #f1f1f1;}
+.sb-slidebar {
+  background-color: #9944B6 !important;
+}
+.sb-slidebar .slide-menu ul li a:hover {
+  color: #f1f1f1;
+}
+.page-header .header-table .header-cell .hgroup h1 {
+  color: #FFF !important;
+}
+
+/* Stories Page Cat Dropdown */
+.explore .dropy__content .dropy__header {
+  background: #9944B6;
+}
+.explore .dropy__title:after {
+  border-top: 0.4rem solid #9944B6;
+}
+.explore .dropy__content ul {
+  background: #9944B6;
+}
